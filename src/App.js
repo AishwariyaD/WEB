@@ -37,13 +37,14 @@ import React from 'react'
 import Effect from './usestate/Effect'
 import Reducer from './usestate/Reducer'
 import Counter from './usestate/Counter'
-
+import Callbacks from './usestate/Callbacks'
 export default function App() {
   return (
     <div>
       <Counter/>
       <Reducer/>
       <Effect/>
+      <Callbacks/>
     </div>
   )
 }
